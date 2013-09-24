@@ -37,6 +37,7 @@ PLACES = [
   "remedy diner",
   "sitti",
   "sono",
+  "sosta cafe",
   "spize",
   "tir na nog",
 ]
