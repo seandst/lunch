@@ -1,4 +1,5 @@
-# lunch.rb - where should we go to lunch today?
+#!/usr/bin/env python
+# lunch.py - where should we go to lunch today?
 # Copyright (C) 2013  M. Adam Price
 #
 # This program is free software: you can redistribute it and/or modify
@@ -13,6 +14,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see {http://www.gnu.org/licenses/}.
+import random
 
 PLACES = [
   "battistella's",
@@ -42,4 +44,4 @@ PLACES = [
   "tir na nog",
 ]
 
-puts PLACES[rand(PLACES.size)]
+print random.choice(PLACES)
